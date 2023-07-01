@@ -1,0 +1,50 @@
+.container {
+    max-width: 235px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .screen {
+    height: 60px;
+    background-color: #f0f0f0;
+    font-size: 2em;
+    line-height: 60px;
+    padding-right: 20px;
+    text-align: right;
+    color: #666;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .buttons button {
+    border: none;
+    height: 60px;
+    font-size: 2em;
+  }
+  
+  .btn-number {
+    background-color: #e0e0e0;
+  }
+  
+  .btn-operator {
+    background-color: #ffa500;
+    color: #fff;
+  }
+  
+  #zero {
+    grid-column: span 2;
+  }
+  
+  #clear, #negate, #percent {
+    background-color: #d0d0d0;
+  }
+  
+  #equals {
+    grid-row: span 2;
+    background-color: #ff8c00;
+  }
+  
